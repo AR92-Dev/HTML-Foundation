@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form>
+        <label>Name</label>
+        <input type="text" placeholder="Name"><br>
+        <label>Email</label>
+        <input type="email" placeholder="Email" required><br>
+<label>Password</label>
+        <input type="password" required placeholder="password"><br>
+        <label>Date of birth</label>
+        <input type="date"><br>
+        <label>Profile Picture Upload</label>
+        <input type="file" ><br>
+        <input type="submit">
+    </form>
+    <from>
+        <h2>User Preferences</h2>
+        <label>About Me</label>
+        <textarea cols="40" rows="4" placeholder="Type about YourSelf"></textarea><br>
+        <label>Country</label>
+        <select>
+            <option>Jordan</option>
+            <option>KSA</option>
+            <option>USA</option>
+        </select><br>
+        <fieldset>
+            <legend>Contact Preference</legend>
+             <input type="radio" name="contact" value="email"> Email
+             <input type="radio" name="contact" value="phone"> Phone
+        </fieldset>
+        <input type="submit">
+
+        <form action="https://example.com/submit" method="post" target="_blank" autocomplete="off">
+            <h2>Form</h2>
+            <label>Email</label>
+            <input type="email" required placeholder="Email"><br>
+            <input type="submit">
+        </form>
+    </from>
+    <form>
+        <h2>Survey Form</h2>
+        <label>User Name</label>
+        <input type="text" maxlength="10" required><br>
+        <label>Age</label>
+        <input type="number" max="60" min="18"><br>
+        <input type="text" list="lang">
+        <datalist id="lang">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+        </datalist>
+        <input type="submit">
+    </form>
+   
+
+</body>
+</html>
